@@ -251,8 +251,22 @@ a {
 }
 
 .card-formacao,
-.card-portfolio {
-    transition: 0.3s;
+.card-portfolio ul {
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+.card-portfolio li {
+    margin-bottom: 8px;
+}
+
+.card-portfolio a {
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+.card-portfolio a:hover {
+    text-decoration: underline;
 }
 
 .card-formacao:hover,
